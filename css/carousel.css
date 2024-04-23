@@ -1,0 +1,62 @@
+* {
+    -webkit-font-smoothing: antialiased; }
+  
+  @media screen and (max-width: 500px) {
+    .carousel {
+      min-height: 185px; }
+      .carousel .control {
+        height: 20px;
+        width: 20px; } }
+  @media screen and (min-width: 501px) and (max-width: 800px) {
+    .carousel {
+      min-height: 260px; }
+      .carousel .control {
+        height: 30px;
+        width: 30px; } }
+  @media screen and (min-width: 801px) {
+    .carousel {
+      min-height: 420px; }
+      .carousel .control {
+        height: 30px;
+        width: 30px; } }
+  .carousel {
+    max-width: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative; }
+    .carousel:hover .controls {
+      opacity: 1; }
+    .carousel .controls {
+      opacity: 1;
+      display: flex;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      justify-content: space-between;
+      width: 100%;
+      z-index: 99999;
+      transition: all ease 0.5s; }
+      .carousel .controls .control {
+        margin: 0 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: rgba(206, 206, 206, 0.8);
+        opacity: .5;
+        transition: ease .3s;
+        cursor: pointer; }
+        .carousel .controls .control:hover {
+          opacity: 1; }
+    .carousel .slides {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      display: flex;
+      width: 100%;
+      transition: 1s ease-in-out all; }
+      .carousel .slides .slide {
+        min-width: 100%; }
+  
+  /*# sourceMappingURL=carousel.css.map */

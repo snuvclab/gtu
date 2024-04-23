@@ -1,0 +1,117 @@
+* {-webkit-font-smoothing: antialiased;}
+$carousel-height: 350px;
+$control-size: 50px;
+
+// body {
+//   background: #3e3e3e;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   min-height: 100vh;
+// }
+
+@media screen and (max-width: 500px) {
+  .carousel {
+    min-height: 185px;
+    // margin-left: 20px;
+    // margin-right: 20px;
+    .control{
+      height: 20px;
+      width: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  .carousel {
+    min-height: 260px;
+    // margin-left: 20px;
+    // margin-right: 20px;
+    .control{
+      height: 30px;
+      width: 30px;
+    }
+  }
+}
+
+// @media screen and (min-width: 801px) and (max-width: 960px) {
+//   .carousel {
+//     min-height: 300px;
+//   }
+// }
+
+@media screen and (min-width: 801px) {
+  .carousel {
+    min-height: 420px;
+    // margin-left: 40px;
+    // margin-right: 40px;
+    .control{
+      height: 30px;
+      width: 30px;
+    }
+    #prev-button {
+      // margin-left: -20px;
+    }
+  }
+}
+
+.carousel {
+  max-width: 100%;
+  // width: auto;
+  // min-height: $carousel-height;
+  // height: auto;
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+  
+  // box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+ 
+  &:hover .controls {
+    opacity: 1;
+  }
+  
+  .controls {
+    opacity: 1;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 99999;
+    transition: all ease 0.5s;
+    
+    .control {
+      margin: 0 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background-color: rgba(206, 206, 206, 0.8);
+      opacity: .5;
+      transition: ease .3s;
+      cursor: pointer;
+      
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+  
+    .slides {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      display: flex;
+      width: 100%;
+      transition: 1s ease-in-out all;
+      
+      .slide {
+        min-width: 100%;
+        // min-height: $carousel-height;
+        // height: auto;
+      }
+      
+    }
+}
