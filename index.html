@@ -24,23 +24,6 @@
 
 <!-- body -->
 <body>
-    <!-- <header class="site-header" role="banner">
-        <div class="site-wrapper nav-wrapper">
-            <nav>
-                <a href="https://jiyewise.github.io" title="Home">
-                  <div class="nav-button" id="home-button" style="padding-left:10px;">Home</div>
-                </a>
-                <a href="" title="Projects">
-                  <div class="nav-button">Projects</div>
-                </a>
-                <a href="../../files/CV.pdf" target="_blank" title="CV">
-                  <div class="nav-button">CV</div>
-                </a>
-              </nav>
-            </div>
-        </div>
-    </header> -->
-
     <main class="page-content">
         <div class="home-wrapper">
             <!-- paper header -->
@@ -68,7 +51,12 @@
             </div>
             <!-- links -->
             <div class="links-row">
-                <button class="link-button">arXiv (TBU)</button>
+                <a href="https://arxiv.org/abs/2404.14410">
+                    <button class="link-button">arXiv</button>
+                </a>   
+                <a href="https://arxiv.org/pdf/2404.14410.pdf">
+                    <button class="link-button">paper</button>
+                </a>              
                 <a href="https://github.com/snuvclab/gtu/">
                     <button class="link-button">Code (TBU)</button>
                 </a>
@@ -90,7 +78,7 @@
                 </div>
                 <div class="teaser-caption"> 
                     <p>
-                        We present a method to reconstruct dynamic scenes from a monocular video capturing partial 2D observations.
+                        We present a method to reconstruct dynamic scenes from a monocular video capturing partial 2D observations of humans.
                     </p>
                 </div>
             </div>
@@ -112,34 +100,39 @@
             </div>
             
             <!-- method -->
-            <!-- <div class="section-wrapper">
+            <div class="section-wrapper">
                 <div class="section-title" id="method-title">
                     METHOD
                 </div>
-                <div class="section-content" id="video-youtube-embed" style="color: #1e1e21">
-                    <iframe src="https://www.youtube.com/embed/UTXYQ4Po820" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="method-image-wrapper">
+                    <img id="profile" src="./files/method_placeholder.png">
                 </div>
-            </div> -->
+                <div class="method-caption"> 
+                    <p>
+                        Place holder for method descriptions.
+                    </p>
+                </div>
 
+            </div>
 
-            <!-- results --> 
-            <!-- <div class="section-wrapper">
-                <div class="section-title" id="more-result-title">
-                    MORE RESULTS
+            <!-- (idw) results --> 
+            <div class="section-wrapper">
+                <div class="section-title" id="in-the-wild-result-title">
+                    RESULTS on IN-THE-WILD VIDEOS
                 </div>
                 <div class="carousel">
                     <div class="slides">
                         <video autoplay muted playsinline controls loop class="slide">
-                            <source src="files/walk2sit1.mp4" type=video/mp4>
+                            <source src="files/demo_placeholder.mp4" type=video/mp4>
                         </video>
                         <video autoplay muted playsinline controls loop class="slide">
-                            <source src="files/walk2sit2.mp4" type=video/mp4>
+                            <source src="files/demo_placeholder.mp4" type=video/mp4>
                         </video>
                         <video autoplay muted playsinline controls loop class="slide">
-                            <source src="files/walk2manip.mp4" type=video/mp4>
+                            <source src="files/demo_placeholder.mp4" type=video/mp4>
                         </video>
                         <video autoplay muted playsinline controls loop class="slide">
-                            <source src="files/multi_custom.mp4" type=video/mp4>
+                            <source src="files/demo_placeholder.mp4" type=video/mp4>
                         </video>
                     </div>
                     <div class="controls">
@@ -147,7 +140,35 @@
                       <div class="control next-slide" id="next-button" style="font-weight:900;">&raquo;</div>
                     </div>
                 </div>
-            </div> -->
+            </div>
+
+
+            <!--  results --> 
+            <div class="section-wrapper">
+                <div class="section-title" id="in-the-wild-result-title">
+                    RESULTS on IN-THE-WILD VIDEOS
+                </div>
+                <div class="carousel">
+                    <div class="slides">
+                        <video autoplay muted playsinline controls loop class="slide">
+                            <source src="files/demo_placeholder.mp4" type=video/mp4>
+                        </video>
+                        <video autoplay muted playsinline controls loop class="slide">
+                            <source src="files/demo_placeholder.mp4" type=video/mp4>
+                        </video>
+                        <video autoplay muted playsinline controls loop class="slide">
+                            <source src="files/demo_placeholder.mp4" type=video/mp4>
+                        </video>
+                        <video autoplay muted playsinline controls loop class="slide">
+                            <source src="files/demo_placeholder.mp4" type=video/mp4>
+                        </video>
+                    </div>
+                    <div class="controls">
+                      <div class="control prev-slide" id="prev-button" style="font-weight:900;">&laquo;</div>
+                      <div class="control next-slide" id="next-button" style="font-weight:900;">&raquo;</div>
+                    </div>
+                </div>
+            </div>
 
             <!-- video -->
             <div class="section-wrapper">
@@ -158,6 +179,7 @@
                     <iframe src="https://www.youtube.com/embed/-O2X2yxelMs?si=b5CIMaIchqPOomaz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
             </div>
+
             <!-- acknowledgements -->
             <div class="section-wrapper">
                 <div class="section-title" id="acknowledgements">
