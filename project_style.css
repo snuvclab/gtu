@@ -1,21 +1,21 @@
 @font-face {
     font-family: "NSRegular";
-    src: url("../fonts/NanumSquareOTFRegular.otf");
+    src: url("./fonts/NanumSquareOTFRegular.otf");
 }
 
 @font-face {
     font-family: "NSBold";
-    src: url("../fonts/NanumSquareOTFBold.otf");
+    src: url("./fonts/NanumSquareOTFBold.otf");
 }
 
 @font-face {
     font-family: "NSExtrabold";
-    src: url("../fonts/NanumSquareOTFExtraBold.otf");
+    src: url("./fonts/NanumSquareOTFExtraBold.otf");
 }
 
 @font-face {
     font-family: "NSLight";
-    src: url("../fonts/NanumSquareOTFLight.otf");
+    src: url("./fonts/NanumSquareOTFLight.otf");
 }
 
 body {
