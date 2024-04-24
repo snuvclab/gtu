@@ -90,27 +90,95 @@
                 <div class="section-content" id="abstract" style="color: #1e1e21">
                     <p id="abstract"> 
                         In this paper, we present a method to reconstruct the world and multiple dynamic humans in 3D from a monocular video input. 
-                        As a key idea, we represent both the world and multiple humans via the recently emerging 3D Gaussian Splatting (3D-GS) representation, enabling to conveniently and efficiently compose and render them together. 
+                        As a key idea, we represent both the world and multiple humans via the recently emerging 3D Gaussian Splatting (3D-GS) representation, enabling us to conveniently and efficiently compose and render them together. 
                         In particular, we address the scenarios with severely limited and sparse observations in 3D human reconstruction, a common challenge encountered in the real world. 
-                        To tackle this challenge, we introduce a novel approach to optimize the 3D-GS representation in a canonical space by fusing the sparse cues in the common space, where we leverage a pre-trained 2D diffusion model to synthesize unseen views while keeping the consistency with the observed 2D appearances. 
-                        We demonstrate our method can reconstruct high-quality animatable 3D humans in various challenging examples, in the presence of occlusion, image crops, few-shot, and extremely sparse observations. After reconstruction, our method is capable of not only rendering the scene in any novel views at arbitrary time instances, but also editing the 3D scene by removing individual humans or applying different motions for each human. 
-                        Through various experiments, we demonstrate the quality and efficiency of our methods over alternative existing approaches.
+                        To tackle this challenge, we introduce a novel approach to optimize the 3D-GS representation in a canonical space by fusing the sparse cues in the common space, where we leverage a pre-trained 2D diffusion model to <b>synthesize</b> unseen views while keeping the consistency with the observed 2D appearances. 
+                        We demonstrate our method can reconstruct high-quality animatable 3D humans in various challenging examples, in the presence of occlusion, image crops, few-shot, and extremely sparse observations.
+                        Once optimization is done, our method is capable of not only rendering the scene in any novel views at arbitrary time instances, but also editing the 3D scene by removing individual humans or applying different motions for each human.
+                        Through various experiments, we demonstrate the quality and efficiency of our methods over alternative existing approaches. 
                     </div>
             </div>
             
             <!-- method -->
             <div class="section-wrapper">
                 <div class="section-title" id="method-title">
-                    RESULTS
+                    METHOD
+                </div>
+                <div class="method-image-wrapper">
+                    <img id="profile" src="./files/method_placeholder.png">
                 </div>
                 <div class="method-caption"> 
                     <p>
-                        TO BE UPDATED
+                        Place holder for method descriptions.
                     </p>
                 </div>
 
             </div>
 
+            <!-- (idw) results --> 
+            <div class="section-wrapper">
+                <div class="section-title" id="in-the-wild-result-title">
+                    RESULTS on IN-THE-WILD VIDEOS
+                </div>
+                <div class="carousel">
+                    <div class="slides">
+                        <video autoplay muted playsinline controls loop class="slide">
+                            <source src="files/demo_placeholder.mp4" type=video/mp4>
+                        </video>
+                        <video autoplay muted playsinline controls loop class="slide">
+                            <source src="files/demo_placeholder.mp4" type=video/mp4>
+                        </video>
+                        <video autoplay muted playsinline controls loop class="slide">
+                            <source src="files/demo_placeholder.mp4" type=video/mp4>
+                        </video>
+                        <video autoplay muted playsinline controls loop class="slide">
+                            <source src="files/demo_placeholder.mp4" type=video/mp4>
+                        </video>
+                    </div>
+                    <div class="controls">
+                      <div class="control prev-slide" id="prev-button" style="font-weight:900;">&laquo;</div>
+                      <div class="control next-slide" id="next-button" style="font-weight:900;">&raquo;</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--  results --> 
+            <div class="section-wrapper">
+                <div class="section-title" id="in-the-wild-result-title">
+                    RESULTS on IN-THE-WILD VIDEOS
+                </div>
+                <div class="carousel">
+                    <div class="slides">
+                        <video autoplay muted playsinline controls loop class="slide">
+                            <source src="files/demo_placeholder.mp4" type=video/mp4>
+                        </video>
+                        <video autoplay muted playsinline controls loop class="slide">
+                            <source src="files/demo_placeholder.mp4" type=video/mp4>
+                        </video>
+                        <video autoplay muted playsinline controls loop class="slide">
+                            <source src="files/demo_placeholder.mp4" type=video/mp4>
+                        </video>
+                        <video autoplay muted playsinline controls loop class="slide">
+                            <source src="files/demo_placeholder.mp4" type=video/mp4>
+                        </video>
+                    </div>
+                    <div class="controls">
+                      <div class="control prev-slide" id="prev-button" style="font-weight:900;">&laquo;</div>
+                      <div class="control next-slide" id="next-button" style="font-weight:900;">&raquo;</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- video -->
+            <div class="section-wrapper">
+                <div class="section-title" id="video-title">
+                    VIDEO
+                </div>
+                <div class="section-content" id="video-youtube-embed" style="color: #1e1e21">
+                    <iframe src="https://www.youtube.com/embed/-O2X2yxelMs?si=b5CIMaIchqPOomaz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+            </div>
 
             <!-- acknowledgements -->
             <div class="section-wrapper">
