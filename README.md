@@ -8,7 +8,7 @@ This is the official code for the CVPR 2024 paper "Guess The Unseen: Dynamic 3D 
 
 ## News
 - Jun 10 : released code
-- (planned, before CVPR) : release preprocess code + configs
+- (planned Jun 16 before CVPR) : release preprocess code of panoptic/hi4d + configs + more detailed instruction 
 
 
 ## Installation
