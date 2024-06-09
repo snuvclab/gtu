@@ -1,0 +1,18 @@
+[submodule "submodules/4D-Humans"]
+	path = submodules/4D-Humans
+	url = https://github.com/shubham-goel/4D-Humans.git
+[submodule "submodules/simple-knn"]
+	path = submodules/simple-knn
+	url = https://gitlab.inria.fr/bkerbl/simple-knn
+[submodule "submodules/controlnet_aux"]
+	path = submodules/controlnet_aux
+	url = https://github.com/huggingface/controlnet_aux.git
+[submodule "submodules/SMPLer-X"]
+	path = submodules/SMPLer-X
+	url = https://github.com/caizhongang/SMPLer-X.git
+[submodule "submodules/Grounded-Segment-Anything"]
+	path = submodules/Grounded-Segment-Anything
+	url = https://github.com/IDEA-Research/Grounded-Segment-Anything.git
+[submodule "submodules/Depth-Anything"]
+	path = submodules/Depth-Anything
+	url = https://github.com/LiheYoung/Depth-Anything.git

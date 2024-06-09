@@ -1,0 +1,6 @@
+# ninja log v5
+0	1724	1713881939021528748	/home/inhee/VCL/repos_2024/gtu_demo/submodules/diff-gaussian-rasterization/build/temp.linux-x86_64-3.9/cuda_rasterizer/forward.o	3a8b1731b169d7e
+0	1725	1713881939021528748	/home/inhee/VCL/repos_2024/gtu_demo/submodules/diff-gaussian-rasterization/build/temp.linux-x86_64-3.9/cuda_rasterizer/backward.o	ec9b74cd665534ab
+0	4300	1713881941597562601	/home/inhee/VCL/repos_2024/gtu_demo/submodules/diff-gaussian-rasterization/build/temp.linux-x86_64-3.9/cuda_rasterizer/rasterizer_impl.o	613b19ad02bbdb49
+0	9618	1713881946913632469	/home/inhee/VCL/repos_2024/gtu_demo/submodules/diff-gaussian-rasterization/build/temp.linux-x86_64-3.9/ext.o	1acb01e5f2bd9c47
+1	26189	1713881963481850316	/home/inhee/VCL/repos_2024/gtu_demo/submodules/diff-gaussian-rasterization/build/temp.linux-x86_64-3.9/rasterize_points.o	523f71cc72ef290f

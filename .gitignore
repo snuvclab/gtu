@@ -1,0 +1,15 @@
+output/
+output_common/
+data/
+*.pyc
+**/__pycache__/
+.vscode/
+wandb/
+checkpoints/
+diffusion_inversion/sample_person_photo
+output
+output_common
+**/build
+**/*.egg-info
+scripts/
+example_data/
