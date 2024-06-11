@@ -11,5 +11,4 @@ output
 output_common
 **/build
 **/*.egg-info
-scripts/
 example_data/
