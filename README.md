@@ -76,9 +76,8 @@ bash -i scripts/render.sh [DATA_DIR] [DATA_DIR]_hn 0 [TEST_NAME] [EXP_NAME] [GPU
 ```
 
 ## Ack.
-```
-This work was supported by Samsung Electronics C-Lab, NRF grant funded by the Korea government (MSIT) (No. 2022R1A2C2092724 and No. RS-2023-00218601), and IITP grant funded by the Korean government (MSIT) (No.2021-0-01343). 
-```
+This work was supported by Samsung Electronics C-Lab.
+
 
 ## License
 Codes are available only for non-commercial research purposes.
